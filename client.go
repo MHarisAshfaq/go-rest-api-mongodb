@@ -10,7 +10,7 @@ import (
 	"github.com/MHarisAshfaq/go-rest-api-mongodb/models"
 )
 
-func main() {
+func client() {
 	baseURL := "http://localhost:8080"
 	sampleBook := models.Book{
 		Title:  "The Alchemist",
